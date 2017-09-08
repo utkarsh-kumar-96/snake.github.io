@@ -28,3 +28,7 @@ td {
     background-color: red;
 }
 
+.content {
+    max-width: 500px;
+    margin: auto;
+}

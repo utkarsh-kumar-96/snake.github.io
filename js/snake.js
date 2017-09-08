@@ -85,8 +85,8 @@ function createFruit() {
 }
 
 
-window.addEventListener("keypress", function key(){
-    var key = event.which || event.keycode;
+window.addEventListener("keydown", function key(){
+    var key = event.keycode || event.charCode || event.which;
     // if key is W set direction up
     if(direction!=-1 && (key==119 || key==87 || key==38))
         direction = 0;
